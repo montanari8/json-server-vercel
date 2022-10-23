@@ -1,9 +1,34 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "projetos": [
+    {
+      "id": "00001",
+      "nome": "Capoeira",
+      "requisitos": "Ter pelo menos 12 anos de idade."
+    },
+    {
+      "id": "00002",
+      "nome": "Jiu Jitsu",
+      "requisitos": "Ter pelo menos 12 anos de idade."
+    },
+    {
+      "id": "00003",
+      "nome": "Futebol Masculino",
+      "requisitos": "Ter pelo menos 8 anos de idade."
+    },
+    {
+      "id": "00004",
+      "nome": "Futebol Feminino",
+      "requisitos": "Ter pelo menos 8 anos de idade."
+    },
+    {
+      "id": "00005",
+      "nome": "Vôlei Feminino",
+      "requisitos": "Ter pelo menos 8 anos de idade."
+    },
+    {
+      "id": "00006",
+      "nome": "Skate",
+      "requisitos": "Ter pelo menos 8 anos de idade."
+    }
+  ]
 }
