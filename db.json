@@ -1,34 +1,271 @@
 {
   "projetos": [
     {
-      "id": "00001",
-      "nome": "Capoeira",
-      "requisitos": "Ter pelo menos 12 anos de idade."
+      "oficina": "Capoeira",
+      "atividade": {
+        "id": "14",
+        "nome": "Capoeira"
+      },
+      "idademinima": "6",
+      "idademaxima": "16",
+      "id": 1
     },
     {
-      "id": "00002",
-      "nome": "Jiu Jitsu",
-      "requisitos": "Ter pelo menos 12 anos de idade."
+      "oficina": "Jiu-Jitsu",
+      "atividade": {
+        "id": "15",
+        "nome": "Jiu-Jitsu"
+      },
+      "idademinima": "6",
+      "idademaxima": "14",
+      "id": 2
     },
     {
-      "id": "00003",
-      "nome": "Futebol Masculino",
-      "requisitos": "Ter pelo menos 8 anos de idade."
+      "oficina": "Desenho",
+      "atividade": {
+        "id": "1",
+        "nome": "Desenho"
+      },
+      "idademinima": "6",
+      "idademaxima": "12",
+      "id": 3
+    }
+  ],
+  "oficineiro": [
+    {
+      "nome": "Anderson da Silva",
+      "cpf": "000.000.000-00",
+      "email": "andersonsilva@ufc.com",
+      "atividade": [
+        {
+          "label": "Jiu-Jitsu",
+          "value": 15
+        },
+        {
+          "label": "Capoeira",
+          "value": 14
+        }
+      ],
+      "id": 1
     },
     {
-      "id": "00004",
-      "nome": "Futebol Feminino",
-      "requisitos": "Ter pelo menos 8 anos de idade."
+      "nome": "Bob Burnquist",
+      "cpf": "111.111.111-11",
+      "email": "bobburn@sk8.com",
+      "atividade": [
+        {
+          "label": "Skate",
+          "value": 12
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "assistido": [
+    {
+      "nascimento": "1987-01-10",
+      "nome": "André Luiz Montnari",
+      "cpf": "111.111.111-11",
+      "id": 2
     },
     {
-      "id": "00005",
-      "nome": "Vôlei Feminino",
-      "requisitos": "Ter pelo menos 8 anos de idade."
+      "nome": "Fábio Muniz",
+      "cpf": "222.222.222-22",
+      "nascimento": "1999-01-01",
+      "id": 3
     },
     {
-      "id": "00006",
+      "nome": "JOSE",
+      "id": 4,
+      "cpf": "11111111"
+    }
+  ],
+  "turma": [
+    {
+      "diasSemana": "segunda-feira, quarta-feira",
+      "oficina": {
+        "id": "1",
+        "oficina": "Capoeira"
+      },
+      "oficineiro": {
+        "id": "1",
+        "nome": "Anderson da Silva"
+      },
+      "horarioInicio": "08:00",
+      "horarioFim": "09:00",
+      "lotacao": "15",
+      "id": 1
+    },
+    {
+      "oficina": {
+        "id": "2",
+        "oficina": "Jiu-Jitsu"
+      },
+      "oficineiro": {
+        "id": "1",
+        "nome": "Anderson da Silva"
+      },
+      "diasSemana": "terça-feira, quinta-feira",
+      "horarioInicio": "08:00",
+      "horarioFim": "09:00",
+      "lotacao": "15",
+      "id": 2
+    },
+    {
+      "oficina": {
+        "id": "3",
+        "oficina": "Desenho"
+      },
+      "oficineiro": {
+        "id": "2",
+        "nome": "Bob Burnquist"
+      },
+      "diasSemana": "segunda-feira",
+      "horarioInicio": "19:00",
+      "horarioFim": "20:00",
+      "lotacao": "25",
+      "id": 3
+    }
+  ],
+  "matricula": [],
+  "atividade": [
+    {
+      "nome": "Desenho",
+      "id": 1
+    },
+    {
+      "nome": "Pintura",
+      "id": 2
+    },
+    {
+      "nome": "Dança",
+      "id": 3
+    },
+    {
+      "nome": "Música",
+      "id": 4
+    },
+    {
+      "nome": "Fotografia",
+      "id": 5
+    },
+    {
+      "nome": "Escultura",
+      "id": 6
+    },
+    {
+      "nome": "Literatura",
+      "id": 7
+    },
+    {
+      "nome": "Audiovisual",
+      "id": 8
+    },
+    {
+      "nome": "Arte Digital",
+      "id": 9
+    },
+    {
+      "nome": "Comunicação",
+      "id": 10
+    },
+    {
+      "nome": "Grafite",
+      "id": 11
+    },
+    {
       "nome": "Skate",
-      "requisitos": "Ter pelo menos 8 anos de idade."
+      "id": 12
+    },
+    {
+      "nome": "Futebol",
+      "id": 13
+    },
+    {
+      "nome": "Capoeira",
+      "id": 14
+    },
+    {
+      "nome": "Jiu-Jitsu",
+      "id": 15
+    },
+    {
+      "nome": "Gastronomia",
+      "id": 16
+    },
+    {
+      "nome": "Informática Básica",
+      "id": 17
+    }
+  ],
+  "ativvalueadeAtivvalueade": [
+    {
+      "label": "Desenho",
+      "value": 1
+    },
+    {
+      "label": "Pintura",
+      "value": 2
+    },
+    {
+      "label": "Dança",
+      "value": 3
+    },
+    {
+      "label": "Música",
+      "value": 4
+    },
+    {
+      "label": "Fotografia",
+      "value": 5
+    },
+    {
+      "label": "Escultura",
+      "value": 6
+    },
+    {
+      "label": "Literatura",
+      "value": 7
+    },
+    {
+      "label": "Audiovisual",
+      "value": 8
+    },
+    {
+      "label": "Arte Digital",
+      "value": 9
+    },
+    {
+      "label": "Comunicação",
+      "value": 10
+    },
+    {
+      "label": "Grafite",
+      "value": 11
+    },
+    {
+      "label": "Skate",
+      "value": 12
+    },
+    {
+      "label": "Futebol",
+      "value": 13
+    },
+    {
+      "label": "Capoeira",
+      "value": 14
+    },
+    {
+      "label": "Jiu-Jitsu",
+      "value": 15
+    },
+    {
+      "label": "Gastronomia",
+      "value": 16
+    },
+    {
+      "label": "Informática Básica",
+      "value": 17
     }
   ]
 }
